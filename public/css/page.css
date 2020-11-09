@@ -1,0 +1,84 @@
+.list {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.li_contain {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: rgba(240, 240, 240);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+.li_contain:hover {
+    width: 250px;
+    transform: scale(1.1);
+}
+
+.li_contain img {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.name {
+    margin: 10px 0px;
+}
+
+.name, .email {
+    text-align: center;
+}
+
+.email {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 160px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.li_contain:hover .email {
+    width: 100%;
+}
+
+.prev, .next {
+    width: 60px;
+    border: none;
+    background-color: rgba(240, 240, 240);
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.prev {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.next {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contain_nav {
+    width: 120px;
+    margin: auto;
+}
+
+.exit {
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: tomato;
+    color: rgba(240, 240, 240);
+    border: 1px solid rgba(240, 240, 240);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
